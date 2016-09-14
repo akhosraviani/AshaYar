@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:theme="@style/MyThem"
+    android:background="@color/colorPrimary"
+    android:id="@+id/toolbar_entry_data">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/phiwmcode"-->
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textColor="#F8F8FF"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/phiwmcode"
+        android:textStyle="normal"
+        android:textSize="13dp"
+        android:id="@+id/phiwm"
+        android:textColor="#F8F8FF"/>
+</android.support.v7.widget.Toolbar>
+</LinearLayout>

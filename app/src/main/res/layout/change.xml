@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/labal_app_bar_new"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/NumberInput"
+                >
+                <EditText
+
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:id="@+id/userAdmin"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:singleLine="true"
+                    android:hint="نام کاربری"/>
+            </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ErrorUserAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/ViewUserAdmin"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#DC143C"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="4dp"
+                android:textColor="#DC143C"
+                android:id="@+id/errorAdminUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/erroruser"/>
+        </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/NumberOutput">
+                <EditText
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:hint="گذر واژه"
+                    android:password="true"
+                    android:id="@+id/passAdmin"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:singleLine="true"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:hint="گذر واژه"
+                android:layout_gravity="right"
+                android:singleLine="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:password="true"
+                android:id="@+id/retryPassadmin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/errorAdminPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:id="@+id/ViewPass"
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="#DC143C"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#DC143C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/errorpass"/>
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/WrongPassAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:id="@+id/ViewWrongPassSupper"
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="#DC143C"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#DC143C"
+                    android:id="@+id/errorWrongASupperPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/errorwrongpass"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="160dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نشان دادن گذرواژه"
+               />
+            <CheckBox
+                android:id="@+id/ShowPassAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+
+            >
+                <EditText
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:id="@+id/ip"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:singleLine="true"
+                    android:hint="ادرس ip"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:layout_gravity="left"
+                android:id="@+id/changeadmin"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change"
+                />
+            <Button
+                android:id="@+id/setip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="set ip"
+                android:layout_gravity="left"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

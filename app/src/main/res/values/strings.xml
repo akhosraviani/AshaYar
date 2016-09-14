@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">اشا یار</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="setting">بررسی تنظیمات اتصال به اینترنت</string>
+    <string name="main_activity">ASHA ERP</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_search">Search</string>
+    <string name="action_plus">Plus</string>
+    <string name="action_scan">scan</string>
+    <string name="phiwmcode">PHLWMCode:</string>
+    <string name="Sequence">ردیف:</string>
+    <string name="partcode">کدکالا:</string>
+    <string name="parttitle">شرح کالا:</string>
+    <string name="Lotcode">لات/دسته:</string>
+    <string name="location">جانمایی:</string>
+    <string name="partuom">واحد کالا:</string>
+    <string name="qty">مقدار:</string>
+    <string name="save">ثبت</string>
+    <string name="cancel">انصراف</string>
+    <string name="New">New</string>
+    <string name="edit">Edit</string>
+    <string name="UseAdmin">UserAdmin:</string>
+    <string name="PassUser">PasswordAdmin:</string>
+    <string name="UserSupper">UserSupperAdmin:</string>
+    <string name="SupperPass">PasswordSupperAdmin:</string>
+    <string name="Ip">ip:</string>
+    <string name="erroruser">please enter username!!!!</string>
+    <string name="errorpass">please enter password!!!</string>
+    <string name="errorwrongpass">please enter correct password!!!</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="change">change</string>
+    <string name="shettment">ShipMent</string>
+    <string name="ID">کد ملی:</string>
+    <string name="information">مشخصات راننده</string>
+    <string name="name">نام و نام خانوادگی:</string>
+    <string name="family">نام خانوادگی:</string>
+    <string name="phone">شماره همراه:</string>
+    <string name="car">مشخصات حمل</string>
+    <string name="pelak">شماره پلاک:</string>
+    <string name="Wegith">وزن ماشین:</string>
+    <string name="WegithB">وزن باسکول:</string>
+    <string name="Date">ورود کامیون:</string>
+    <string name="Shipment_activity">فروش</string>
+
+</resources>

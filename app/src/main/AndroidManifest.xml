@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.f.y.ashayar" >
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_me"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/main_activity"/>
+        <activity android:name=".CheckWifi" />
+        <activity android:name=".ShowWifi"/>
+        <activity android:name=".ShowDecide"
+            android:label="@string/main_activity"/>
+        <activity android:name=".Change"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/main_activity"/>
+        <activity android:name=".SupperChange"
+            android:label="@string/main_activity"/>
+        <activity android:name=".Login"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/main_activity"/>
+        <activity android:name=".ShipMent"
+            android:label="@string/Shipment_activity"/>
+        <activity android:name=".DataEntryMenu"
+            android:windowSoftInputMode="stateHidden"
+            />
+        <activity android:name=".Information"
+            android:label="@string/Shipment_activity" />
+        <activity android:name=".ShowPhiwm"
+            android:label="انبارگردانی"
+            android:windowSoftInputMode="stateHidden"
+            />
+        <activity android:name=".ShowListInventory"
+            android:windowSoftInputMode="stateHidden"
+            />
+        <activity android:name=".NewPartMenu"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ListScan"
+            android:screenOrientation="portrait"
+            android:label="@string/Shipment_activity"/>
+        <activity android:name=".ShowInformationShipment"
+            android:label="@string/Shipment_activity"/>
+        <activity android:name=".SerialCode"
+            android:label="انبارگردانی"/>
+    </application>
+
+</manifest>
